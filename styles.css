@@ -1,0 +1,112 @@
+/* General Styles */
+html {
+	font-family: Helvetica;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	background-color: #1A283A;
+}
+body {
+	background-color: #EFEFEF;
+	padding: 0;
+	margin: 0;
+}
+p {
+	font-size: 1.4em;
+}
+/* Layout */
+div .bg-container {
+	padding: 0;
+	margin: 0;
+}
+nav {
+	width: 100%; 
+	display: block;
+	background-color: #59D;
+	margin: 0;
+	padding: 0;
+}
+#nav-container {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+li {
+	background-color: #59D;
+	float: right;
+	text-align: center;
+}
+#intro-btn {
+	float: left;
+}
+li a {
+	font-size: 1.1em;
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	color: #FFF;
+}
+li a:hover {
+	background-color: #48C;
+}
+.bg-container {
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+#header-title {
+	margin: 0;
+	padding: 0.2em;
+	font-size: 4em;
+	background-color: #000;
+	color: #FFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	opacity: 0.75;
+}
+section .img-container {
+	width: 50%;
+	height: auto;
+	float: right;
+}
+.article-container {
+	padding: 1em;
+}
+h2 {
+	font-size: 2em;
+	margin: 0;
+}
+.txt-container {
+	color: #FFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 85%;
+}
+/* Queries */
+@media only screen and (max-width: 540px) {
+	#header-title {
+		font-size: 3em;
+	}
+	ul {
+		font-size: 1em;
+	}
+	li a {
+		padding: 0.65em;
+	}
+}
